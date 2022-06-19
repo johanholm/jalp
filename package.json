@@ -1,0 +1,16 @@
+{
+  "name": "hjalp",
+  "version": "0.1.0",
+  "description": "Awesome sass functions, mixins build beautiful responsive websites.",
+  "main": "index.scss",
+  "style": "index.scss",
+  "repository": "git@github.com:johanholm/hjalp.git",
+  "keywords": [
+    "sass",
+    "scss",
+    "dart-sass"
+  ],
+  "author": "Johan <johan@holmweb.se>",
+  "license": "MIT",
+  "private": false
+}
