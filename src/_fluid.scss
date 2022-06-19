@@ -116,9 +116,9 @@
       #{$property}: $mobile;
     }
 
-    $tablet-width: map-get(variables.$interpolateConfig, "tablet");
-    $desktop-min-width: map-get(variables.$interpolateConfig, "desktop-min");
-    $desktop-width: map-get(variables.$interpolateConfig, "desktop");
+    $tablet-width: map-get(variables.$fluidConfig, "tablet");
+    $desktop-min-width: map-get(variables.$fluidConfig, "desktop-min");
+    $desktop-width: map-get(variables.$fluidConfig, "desktop");
 
     @media screen and (min-width: $tablet-width) {
       @each $property in $properties {
