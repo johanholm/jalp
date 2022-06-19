@@ -8,7 +8,7 @@ Hjalp is a set of sass helpers that helps create beautifully responsive websites
 
 ## Quick start
 
-Install with yarn: yarn add hjalp
+Install with yarn: `yarn add hjalp`
 
 ---
 
