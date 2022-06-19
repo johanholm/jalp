@@ -70,7 +70,7 @@ h1 {
 );
 ```
 
-### Alternatively you can create your own file and set the default variables in there, and then use that file instead of 'yalp'
+### Alternatively you can create your own file and set the default variables in there, and then use that file instead of 'hjalp'
 
 ```scss
 // functions.scss
