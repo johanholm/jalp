@@ -1,10 +1,13 @@
 {
   "name": "jalp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Awesome sass functions, mixins build beautiful responsive websites.",
   "main": "index.scss",
   "style": "index.scss",
-  "repository": "git@github.com:johanholm/jalp.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johanholm/jalp.git"
+  },
   "keywords": [
     "sass",
     "scss",
