@@ -1,0 +1,49 @@
+@use "./variables" as *;
+
+@mixin onMobile() {
+  @media (max-width: #{map-get($breakpoints, "tablet") - 1px}) {
+    @content;
+  }
+}
+
+@mixin onTablet() {
+  @media (min-width: #{map-get($breakpoints, "tablet")}) and (max-width: #{map-get($breakpoints, "desktop-min") - 1px}) {
+    @content;
+  }
+}
+
+@mixin onTabletDown() {
+  @media (max-width: #{map-get($breakpoints, "desktop-min") - 1px}) {
+    @content;
+  }
+}
+
+@mixin onTabletUp() {
+  @media (min-width: #{map-get($breakpoints, "tablet")}) {
+    @content;
+  }
+}
+
+@mixin onDesktopMin() {
+  @media (min-width: #{map-get($breakpoints, "desktop-min")}) and (max-width: #{map-get($breakpoints, "desktop") - 1px}) {
+    @content;
+  }
+}
+
+@mixin onDesktopMinDown() {
+  @media (max-width: #{map-get($breakpoints, "desktop-min") - 1px}) {
+    @content;
+  }
+}
+
+@mixin onDesktopMinUp() {
+  @media (min-width: #{map-get($breakpoints, "desktop-min")}) {
+    @content;
+  }
+}
+
+@mixin onDesktop() {
+  @media (min-width: #{map-get($breakpoints, "desktop")}) {
+    @content;
+  }
+}

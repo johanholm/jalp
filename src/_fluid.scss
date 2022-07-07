@@ -4,7 +4,7 @@
 @mixin fluid(
   $properties,
   $mobile,
-  $tablet,
+  $tablet: $mobile,
   $desktop-min: $tablet,
   $desktop: $desktop-min
 ) {
