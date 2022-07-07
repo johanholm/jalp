@@ -73,7 +73,7 @@ h1 {
 ### Alternatively you can create your own file and set the default variables in there, and then use that file instead of 'jalp'
 
 ```scss
-// functions.scss
+// mixins.scss
 @forward "jalp" with (
   $breakpoints: (
     tablet: 767px,
@@ -82,8 +82,8 @@ h1 {
   )
 );
 
-// heading.scss
-@use "./functions";
+// mixins.scss
+@use "./mixins";
 
 h1 {
   @include functions.fluid(font-size, 14px, 12px, 16px, 18px);
